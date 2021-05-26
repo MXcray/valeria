@@ -1,0 +1,98 @@
+.content_form {
+    background: #111;
+    box-shadow: 0px 0px 25px rgba(83, 83, 83, 0.25);
+    margin-left: 170px;
+    margin-top: 70px;
+}
+.form__title {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.name,
+.phoneNumber,
+.Email {
+    padding-left: 40px;
+    font-size: 18px;
+    border: 1px solid #7C7C7C;
+    box-sizing: border-box;
+    width: 281px;
+    height: 66px;
+    /* margin-right: 73px; */
+}
+
+input[type="text"] {
+    color: black;
+}
+
+input[name="message"] {
+    /* width: 639px; */
+    /* height: 66px; */
+    border: 1px solid #7C7C7C;
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 33px;
+}
+.first_inputs,
+.second_inputs textarea,
+.button_form {
+    font-family: "OpenSansRegular", sans-serif;
+}
+
+.button_form {
+    width: 280px;
+    height: 60px;
+    background: #F23131;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: "OpenSansSemiBold", sans-serif;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+.button_form:hover {
+    box-shadow: 0 0 25px rgb(179, 4, 4);
+    transition: .5s;
+    transform: scale(1.1, 1.1);
+}
+
+.form_content {
+    padding: 30px ;
+}
+
+.first_inputs {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_inputs {
+    margin-bottom: 52px;
+    text-align: center;
+}
+.second_inputs textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 22px;
+    font-family: "OpenSansRegular", sans-serif;
+    padding: 20px;
+    /* width: 300px; */
+    /* height: 200px; */
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+/* .contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+} */
+
+/* .contacts p {
+    margin-top: 2%;
+} */
+.text {
+    margin-bottom: 3%;
+}

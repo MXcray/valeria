@@ -1,0 +1,234 @@
+/*================Global====================*/
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #111;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+.header__logo {
+	padding: 40px 0;
+	text-align: center;
+}
+.header__logo img {
+	width: 100px;
+}
+/* .content {
+
+} */
+.content__wrapper {
+	display: flex;
+	/* justify-content: space-between; */
+}
+.content__main {
+	/* width: 80%; */
+	display: flex;
+	margin-left: 170px;
+	/* justify-content: space-between; */
+	/* align-items: center; */
+}
+.content__main a {
+	padding-right: 30px;
+}
+.content__main a:last-child {
+	padding-right: 0px;
+}
+
+.content__main img {
+	/* max-width: 100%; */
+	width: 100%;
+	max-width: 700px;
+	height: 100%;
+	object-fit: cover;
+	/* height: 100%; */
+}
+/* nav */
+nav {
+	/* padding-left: auto; */
+	/* width: 20%; */
+	/* position: sticky; */
+	/* top: 0; */
+	position: fixed;
+}
+nav a {
+	display: block;
+	/* width: 100%; */
+	/* text-align: center; */
+	text-decoration: none;
+	color: #fff;
+	margin-right: 100px;
+	margin-bottom: 15px;
+	position: relative;
+}
+nav a:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #fff; 
+	transition: width 0.3s ease-out; 
+}
+nav a:hover:after,
+nav a:focus:after {
+	width: 100%;
+}
+body {
+	position: relative;
+	height: 100%;
+	padding-bottom: 250px;
+}
+.footer {
+	text-align: center;
+	padding: 40px 0;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	height: 200px;
+	transform: translateX(-50%);
+}
+
+.slider {
+	/* margin: 0 auto; */
+	/* text-align: center; */
+	left: 50%;
+	transform: translateX(-40%);
+	width: 70%;
+	/* height: 20%; */
+	/* margin-left: 170px; */
+	/* max-width: 100%; */
+}
+.slider img {
+	max-height: 500px;
+	object-fit: cover;
+}
+@media screen and (max-width: 1200px) {
+	.slider img {
+		/* max-height: 400px; */
+	}
+}
+
+.content__main_about{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+.content__main_about img{
+	width: 60%;
+	padding: 40px;
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+}
+.card_img{
+	width: 100%;
+	height: 45%;
+	
+}
+.block_card{
+	margin-left: 5%;
+}
+/* .cards-block{
+	display: flex;
+	flex-direction: column;
+} */
+.card_btn{
+	margin-top: -10%;
+	background: brown;
+}
+.card_btn a{
+	text-decoration: none;
+	color: white;
+}
+/* ===========================About========================= */
+.about {
+	margin-left: 170px;
+	display: flex;
+
+}
+.about img {
+	width: 100%;
+	padding-right: 30px;
+	object-fit: cover;
+}
+.about__title {
+	font-size: 24px;
+}
+.about__text {
+	line-height: 1.5em;
+}
+.about__contacts {
+	font-size: 16px;
+}
+/* ===========================card========================== */
+.card {
+	margin-left: 170px;
+	display: flex;
+}
+.card__img img{
+	width: 300px;
+	object-fit: contain;
+	padding-right: 30px;
+}
+.card__text p {
+	margin-bottom: 30px;
+}
+/* ===========================Contacts====================== */
+.contacts {
+	margin-left: 170px;
+	display: flex;
+}
+.contacts__text p {
+	padding-bottom: 30px;
+}
+.contacts__img img {
+	width: 300px;
+	object-fit: contain;
+	padding-right: 30px;
+}
+/* ==========================School========================= */
+.cards-block {
+	margin-left: 170px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.block_card {
+	width: 28%;
+	text-align: center;
+}
+.block_card p {
+	text-align: left;
+}
+.block_card img {
+	/* width: 100%; */
+	object-fit: cover;
+}
+.block_card p {
+	font-size: 14px;
+	padding-top: 15px;
+	line-height: 1.5em;
+}
+.school__btn a {
+	text-decoration: none;
+	color: #fff;
+}
+.school__btn {
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+}

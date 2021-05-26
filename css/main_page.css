@@ -200,7 +200,7 @@ body {
 	padding-right: 30px;
 }
 /* ==========================School========================= */
-.cards-block {
+/* .cards-block {
 	margin-left: 170px;
 	display: flex;
 	justify-content: space-between;
@@ -214,16 +214,17 @@ body {
 .block_card p {
 	text-align: left;
 }
-.block_card img {
+.block_card img { */
 	/* width: 100%; */
-	object-fit: cover;
+	/* object-fit: cover;
 }
 .block_card p {
 	font-size: 14px;
 	padding-top: 15px;
 	line-height: 1.5em;
 }
-.school__btn a {
+*/
+/* .school__btn a {
 	text-decoration: none;
 	color: #fff;
 }
@@ -231,4 +232,49 @@ body {
 	width: 30%;
 	display: block;
 	margin: 0 auto;
+}  */
+/* new card */
+.products {
+	display: flex;
+	margin-left: 170px;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.product {
+	width: 30%;
+	box-shadow: 0px 0px 10px rgb(184, 184, 184, .1);
+	margin-bottom: 50px;
+}
+.product:hover {
+	border-radius: 10px 10px 0 0;
+	box-shadow: 0px 0px 10px rgb(184, 184, 184, .4);
+	cursor: pointer;
+}
+.product img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.product__text {
+	padding: 20px;
+}
+.product__title {
+	font-size: 24px;
+	padding-top: 5px;
+}
+.product__price {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 0;
+}
+.product__description {
+	line-height: 1.5em;
+}
+.school__btn {
+	display: block;
+	width: 30%;
+}
+.school__btn a {
+	color: #fff;
+	text-decoration: none;
 }

@@ -4,6 +4,30 @@
     margin-left: 170px;
     margin-top: 70px;
 }
+/* form { */
+    /* display: block; */
+/* } */
+@media screen and (max-width: 992px ) {
+    .first_inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_inputs input {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .first_inputs input:last-child {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 544px ) {
+	.content_form {
+		margin-left: 30px;
+	}
+    form {
+        overflow: hidden;
+    }
+}
 .form__title {
     font-size: 24px;
     text-align: center;
